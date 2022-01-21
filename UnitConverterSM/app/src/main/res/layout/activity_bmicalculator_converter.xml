@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_view"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".activities.BMICalculatorActivity">
+
+
+    <TextView
+        android:id="@+id/textBMICalculatorName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/catamaran_semibold"
+        android:lineSpacingExtra="-10sp"
+        android:text="@string/bmi_ncalculator"
+        android:textColor="@color/convertButtonColor"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textEntereHeight"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="30dp"
+        android:fontFamily="@font/catamaran_semibold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/height" />
+
+
+    <EditText
+        android:id="@+id/BMICalculatorHeightEditText"
+        android:background="@drawable/background_edit_text"
+        android:hint="@string/enter_your_height"
+        android:paddingLeft="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:fontFamily="@font/catamaran_semibold"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+
+    <TextView
+        android:id="@+id/textEnterWeight"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="30dp"
+        android:fontFamily="@font/catamaran_semibold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/weight" />
+
+    <EditText
+        android:id="@+id/BMICalculatorWeightEditText"
+        android:background="@drawable/background_edit_text"
+        android:hint="@string/enter_your_weight"
+        android:paddingLeft="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:fontFamily="@font/catamaran_semibold"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+
+    <Button
+        android:id="@+id/buttonCalculateBMIResult"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/catamaran_semibold"
+        android:backgroundTint="@color/convertButtonColor"
+        android:text="@string/convert"
+        app:cornerRadius="12dp" />
+
+    <TextView
+        android:id="@+id/BMIResultEditText"
+        android:background="@drawable/background_edit_text"
+        android:hint="@string/result"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:fontFamily="@font/catamaran_semibold"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+</LinearLayout>

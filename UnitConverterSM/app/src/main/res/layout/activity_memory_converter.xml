@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".activities.TemperatureConverterActivity">
+
+
+    <TextView
+        android:id="@+id/textConverterName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/catamaran_semibold"
+        android:lineSpacingExtra="-10sp"
+        android:text="@string/memoryConverterTitle"
+        android:textColor="@color/convertButtonColor"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textUnitFrom"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/catamaran_semibold"
+        android:text="@string/from" />
+
+    <Spinner
+        android:id="@+id/memoryConvertFromSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="left"
+        android:fontFamily="@font/catamaran_semibold"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/spinnerColor"
+        android:padding="1dip"></Spinner>
+
+    <TextView
+        android:id="@+id/textUnitTo"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="30dp"
+        android:fontFamily="@font/catamaran_semibold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/to" />
+
+    <Spinner
+        android:id="@+id/memoryConvertToSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="left"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@color/spinnerColor"
+        android:textColor="#ffffff"
+        android:padding="1dip"></Spinner>
+
+    <EditText
+        android:id="@+id/memoryValueEditText"
+        android:background="@drawable/background_edit_text"
+        android:hint="@string/enter_value"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:fontFamily="@font/catamaran_semibold"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <Button
+        android:id="@+id/buttonCalculateResult"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/catamaran_semibold"
+        android:backgroundTint="@color/convertButtonColor"
+        android:text="@string/convert"
+        app:cornerRadius="12dp" />
+
+</LinearLayout>

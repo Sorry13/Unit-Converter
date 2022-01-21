@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Unit\nConverter</string>
+    <!--<string name="fromCurrency">From\nPLN</string>-->
+    <string name="temperatureConverterTitle">Temperature\nConverter</string>
+    <!--<string name="toCurrency">Choose your desired currency</string>-->
+    <string name="pln_nconverter">PLN\nConverter</string>
+    <string name="to">To</string>
+    <string name="from">From</string>
+    <string name="weight_converter_title">Weight\nConverter</string>
+    <string name="time_converter_title">Time\nConverter</string>
+    <string name="memoryConverterTitle">Memory\nConverter</string>
+    <string name="bmi_ncalculator">BMI\nCalculator</string>
+    <string name="height">Height:</string>
+    <string name="enter_your_height">Enter your height</string>
+    <string name="enter_your_weight">Enter your weight</string>
+    <string name="convert">Convert</string>
+    <string name="result">Result</string>
+    <string name="enter_the_value_you_want_to_convert">Enter the value you want to convert</string>
+    <string name="converter_calculator">Converter Calculator</string>
+    <string name="enter_value">Enter value</string>
+    <string name="your_input">Your Input</string>
+    <string name="weight">Weight:</string>
+
+    <string name="Temperature">Temperature</string>
+    <string name="Weight">Weight</string>
+    <string name="Time">Time</string>
+    <string name="Memory">Memory</string>
+    <string name="BMI">BMI</string>
+    <string name="Currency">Currency</string>
+    <string name="api_succes">Data downloaded successfully</string>
+    <string name="api_fail">Something went wrong... Please try later</string>
+    <string name="empty_input">value cannot be empty</string>
+
+    <string-array name="TemperatureUnitsSpinner">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+        <item>Kelvin</item>
+    </string-array>
+
+    <string-array name="CurrencyUnitsSpinner">
+        <item>EUR</item>
+        <item>USD</item>
+        <item>AUD</item>
+        <item>HKD</item>
+        <item>CAD</item>
+        <item>SGD</item>
+        <item>JPY</item>
+    </string-array>
+
+    <string-array name="WeightUnitsSpinner">
+        <item>Kilogram</item>
+        <item>Gram</item>
+        <item>Ton</item>
+        <item>Pound</item>
+    </string-array>
+
+    <string-array name="TimeUnitsSpinner">
+        <item>Second</item>
+        <item>Minute</item>
+        <item>Hour</item>
+        <item>Day</item>
+        <item>Week</item>
+    </string-array>
+
+    <string-array name="MemoryUnitsSpinner">
+        <item>byte</item>
+        <item>kilobyte</item>
+        <item>megabyte</item>
+        <item>gigabyte</item>
+        <item>terabyte</item>
+    </string-array>
+</resources>

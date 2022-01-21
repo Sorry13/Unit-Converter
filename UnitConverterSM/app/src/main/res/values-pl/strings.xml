@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Konwerter\nJednostek</string>
+    <string name="temperatureConverterTitle">Konwerter Temperatury</string>
+    <string name="pln_nconverter">Konweter PLN</string>
+    <string name="to">Jednostka Docelowa</string>
+    <string name="from">Jednostka Konwertowana</string>
+    <string name="weight_converter_title">Konwerter Masy</string>
+    <string name="time_converter_title">Konwerter Czasu</string>
+    <string name="memoryConverterTitle">Konwerter Pamięci</string>
+    <string name="bmi_ncalculator">BMI Kalkulator</string>
+    <string name="height">Wysokość:</string>
+    <string name="enter_your_height">Wpisz swój wzrost</string>
+    <string name="enter_your_weight">Wpisz swoją wage</string>
+    <string name="convert">Konwertuj</string>
+    <string name="result">Wynik</string>
+    <string name="enter_the_value_you_want_to_convert">Wpisz ilość PLN</string>
+    <string name="converter_calculator">Konwerter</string>
+    <string name="enter_value">Wpisz wartość</string>
+    <string name="your_input">Dane Wejściowe</string>
+    <string name="weight">Waga:</string>
+    <string name="Temperature">Temperatura</string>
+    <string name="Weight">Waga</string>
+    <string name="Time">Czas</string>
+    <string name="Memory">Pamięć</string>
+    <string name="BMI">BMI</string>
+    <string name="Currency">Waluty</string>
+    <string name="api_succes">Pomyślnie pobrano dane</string>
+    <string name="api_fail">Coś poszło nie tak... Spróbuj ponownie później</string>
+    <string name="empty_input">pole nie może być puste</string>
+
+</resources>
+
